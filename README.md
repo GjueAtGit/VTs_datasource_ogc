@@ -6,9 +6,7 @@ eine Masterthesis an der Universität Salzburg - UNIGIS
 
 
 
-# english:
-
-# Vector Tiles as data source for OGC display services
+# english: Vector Tiles as data source for OGC display services
 a masterthesis at University of Salzburg - UNIGIS
 
 -- under construction --
