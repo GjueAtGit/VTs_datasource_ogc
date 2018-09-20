@@ -1,4 +1,11 @@
 # Vector Tiles als Datengrundlage für OGC Darstellungsdienste
-Masterthesis: "Vector Tiles als Datengrundlage für OGC Darstellungsdienste" (english: "Vector Tiles as data source for OGC display services")
+eine Masterthesis an der Universität Salzburg - UNIGIS
 
-- under construction -
+-- aktuell in Bearbeitung --
+
+
+english
+# Vector Tiles as data source for OGC display services
+a masterthesis at University of Salzburg - UNIGIS
+
+-- under construction --
