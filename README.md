@@ -8,6 +8,6 @@ Aus der Überlegung, einerseits die Vorteile von Vector Tiles bei der Bereitstel
 <br/>
 ### english Version
 # Vector Tiles as data source for OGC web services (WMS, WMTS)
-### A masterthesis at University of Salzburg - UNIGIS
+### A master thesis at University of Salzburg - UNIGIS
 
 The research focus of this thesis is based on the consideration to be able to use the advantages of Vector Tiles for the provision of geodata on the one hand and to offer conventional OGC web services on the other hand. It is investigated whether it is possible to use Vector Tiles as data basis for WMS and WMTS. 
