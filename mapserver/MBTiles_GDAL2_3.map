@@ -1,0 +1,248 @@
+MAP
+  # created with MapManager 1.1.0.0 - https://github.com/DMS-Aus/MapManager
+  # data from OpenMapTiles - https://openmaptiles.com/downloads/europe/switzerland/zurich/
+  DEFRESOLUTION 96
+  EXTENT 935818.88896222 5998907.21281611 956341.185758707 6010656.52016508
+  FONTSET "myLocalPath\\font.list"
+  IMAGETYPE "png24"
+  NAME "MS"
+  RESOLUTION 96
+  SHAPEPATH ""
+  SIZE 1580 905
+  STATUS ON
+  SYMBOLSET "myLocalPath\\symbols.sym"
+  UNITS METERS
+
+  OUTPUTFORMAT
+    NAME "png24"
+    MIMETYPE "image/png"
+    DRIVER "AGG/PNG"
+    EXTENSION "png"
+    IMAGEMODE RGB
+    TRANSPARENT FALSE
+  END # OUTPUTFORMAT
+
+  OUTPUTFORMAT
+    NAME "print"
+    MIMETYPE "image/png"
+    DRIVER "AGG/PNG"
+    EXTENSION "png"
+    IMAGEMODE RGB
+    TRANSPARENT FALSE
+  END # OUTPUTFORMAT
+
+  PROJECTION
+    "proj=merc"
+    "a=6378137"
+    "b=6378137"
+    "lat_ts=0.0"
+    "lon_0=0.0"
+    "x_0=0.0"
+    "y_0=0"
+    "k=1.0"
+    "units=m"
+    "nadgrids=@null"
+    "wktext"
+    "no_defs"
+  END # PROJECTION
+  LEGEND
+    KEYSIZE 20 10
+    KEYSPACING 5 5
+    LABEL
+      SIZE 10
+      OFFSET 0 0
+      SHADOWSIZE 1 1
+    END # LABEL
+    STATUS OFF
+  END # LEGEND
+
+  QUERYMAP
+    SIZE -1 -1
+    STATUS OFF
+    STYLE HILITE
+  END # QUERYMAP
+
+  SCALEBAR
+    INTERVALS 4
+    LABEL
+      SIZE 10
+      OFFSET 0 0
+      SHADOWSIZE 1 1
+    END # LABEL
+    SIZE 200 3
+    STATUS OFF
+    UNITS MILES
+  END # SCALEBAR
+
+  WEB
+    METADATA
+      "distance_units"	"MS_METERS"
+      "mapmanager_version"	"1.1.0.0"
+      "coordsys_name"	"Popular Visualisation CRS / Mercator (deprecated)"
+    END # METADATA
+  END # WEB
+
+  LAYER
+    CLASSITEM "class"
+    CONNECTION "myLocalPath\\zurich_switzerland.mbtiles"
+    CONNECTIONTYPE OGR # connection via OGR driver
+    DATA "landcover" # defined in recordset 'metadata', record 'json'
+    LABELITEM "subclass" # defined in recordset 'metadata', record 'json'
+    METADATA
+      "coordsys_name"	"Popular Visualisation CRS / Mercator (deprecated)"
+    END # METADATA
+    NAME "landcover"
+    PROJECTION
+      "proj=merc"
+      "a=6378137"
+      "b=6378137"
+      "lat_ts=0.0"
+      "lon_0=0.0"
+      "x_0=0.0"
+      "y_0=0"
+      "k=1.0"
+      "units=m"
+      "nadgrids=@null"
+      "wktext"
+      "no_defs"
+    END # PROJECTION
+    STATUS ON
+    TEMPLATE "query.html"
+    TILEITEM "location"
+    TYPE POLYGON
+    UNITS METERS
+    CLASS
+      NAME "wood"
+      EXPRESSION ('[class]' = "wood") # filtering of 'class', defined in the tags (key 'class') of the tiles
+      STYLE
+        COLOR "#1d6f247f"
+        OPACITY 50
+        OUTLINECOLOR "#054d0b7f"
+        SIZE 8
+      END # STYLE
+    END # CLASS
+    CLASS
+      NAME "grass"
+      EXPRESSION ('[class]' = "grass") # filtering of 'class', defined in the tags (key 'class') of the tiles
+      LABEL # labeling based on the values of 'subclass' (see above: LABELITEM)
+        FONT "arial"
+        SIZE 10
+        COLOR 5 77 11
+        OFFSET 0 0
+        PARTIALS TRUE
+        POSITION CC
+        SHADOWCOLOR 255 255 255
+        SHADOWSIZE 1 1
+      END # LABEL
+      STYLE
+        COLOR "#34c6407f"
+        OPACITY 50
+        OUTLINECOLOR "#05af137f"
+        SIZE 8
+      END # STYLE
+    END # CLASS
+    CLASS
+      NAME "farmland"
+      EXPRESSION ('[class]' = "farmland") # filtering of 'class', defined in the tags (key 'class') of the tiles
+      STYLE
+        COLOR "#855a1d7f"
+        OPACITY 50
+        OUTLINECOLOR "#7446037f"
+        SIZE 8
+      END # STYLE
+    END # CLASS
+    CLASS
+      NAME "wetland"
+      EXPRESSION ('[class]' = "wetland") # filtering of 'class', defined in the tags (key 'class') of the tiles
+      STYLE
+        COLOR "#65883c7f"
+        OPACITY 50
+        OUTLINECOLOR "#4378067f"
+        SIZE 8
+      END # STYLE
+    END # CLASS
+  END # LAYER
+
+  LAYER
+    CLASSITEM "class"
+    COMPOSITE
+    END # COMPOSITE
+    CONNECTION "myLocalPath\\zurich_switzerland.mbtiles"
+    CONNECTIONTYPE OGR # connection via OGR driver
+    DATA "landuse" # defined in recordset 'metadata', record 'json'
+    METADATA
+      "coordsys_name"	"Popular Visualisation CRS / Mercator (deprecated)"
+    END # METADATA
+    NAME "landuse"
+    PROJECTION
+      "proj=merc"
+      "a=6378137"
+      "b=6378137"
+      "lat_ts=0.0"
+      "lon_0=0.0"
+      "x_0=0.0"
+      "y_0=0"
+      "k=1.0"
+      "units=m"
+      "nadgrids=@null"
+      "wktext"
+      "no_defs"
+    END # PROJECTION
+    STATUS ON
+    TEMPLATE "query"
+    TILEITEM "location"
+    TYPE POLYGON
+    UNITS METERS
+    CLASS
+      NAME "industrial"
+      EXPRESSION ('[class]' = "industrial") # filtering of 'class', defined in the tags (key 'class') of the tiles
+      STYLE
+        COLOR "#3621217f"
+        OPACITY 50
+        OUTLINECOLOR "#3621217f"
+        SIZE 8
+      END # STYLE
+      TEMPLATE "query.html"
+    END # CLASS
+  END # LAYER
+
+  LAYER
+    CONNECTION "myLocalPath\\zurich_switzerland.mbtiles"
+    CONNECTIONTYPE OGR # connection via OGR driver
+    DATA "water" # defined in recordset 'metadata', record 'json'
+    METADATA
+      "coordsys_name"	"Popular Visualisation CRS / Mercator (deprecated)"
+    END # METADATA
+    NAME "water"
+    PROJECTION
+      "proj=merc"
+      "a=6378137"
+      "b=6378137"
+      "lat_ts=0.0"
+      "lon_0=0.0"
+      "x_0=0.0"
+      "y_0=0"
+      "k=1.0"
+      "units=m"
+      "nadgrids=@null"
+      "wktext"
+      "no_defs"
+    END # PROJECTION
+    STATUS ON
+    TEMPLATE "query.html"
+    TILEITEM "location"
+    TYPE POLYGON
+    UNITS METERS
+    CLASS
+      NAME "water"
+      STYLE
+        COLOR "#3f5c9e7f"
+        OPACITY 50
+        OUTLINECOLOR "#0f33897f"
+        SIZE 8
+      END # STYLE
+      TEMPLATE "query.html"
+    END # CLASS
+  END # LAYER
+
+END # MAP
