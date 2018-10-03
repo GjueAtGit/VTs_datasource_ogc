@@ -1,4 +1,7 @@
+```diff
 -- aktuell in Bearbeitung --
+-- currently under construction --
+```
 # Vector Tiles als Datengrundlage für OGC Darstellungsdienste - WMS und WMTS
 ### eine Masterthesis an der Universität Salzburg - UNIGIS
 
