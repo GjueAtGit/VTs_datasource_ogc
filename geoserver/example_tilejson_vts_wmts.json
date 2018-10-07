@@ -1,0 +1,22 @@
+{
+"tilejson":"2.0.0",
+"tiles":["http://localhost:8080/geoserver/gwc/service/wmts?REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0&LAYER=DLM:sie01_f&STYLE=&TILEMATRIX=EPSG:900913:{z}&TILEMATRIXSET=EPSG:900913&FORMAT=application/x-protobuf;type=mapbox-vector&TILECOL={x}&TILEROW={y}"],
+"name":"GeoServer-TestTiles",
+"format":"pbf",
+"basename":"DLM1000",
+"id":"dlm1000",
+"minzoom":0,
+"maxzoom":14,
+"center":[10.5668,51.14895,3],
+"bounds":[5.5888,47.2718,15.5448,55.0261],
+"version":"3.3",
+"crs":"3857",
+"vector_layers":[
+	{"id":"sie01_f",
+	 "geometry_type":"polygon",
+	 "minzoom":0,
+	 "maxzoom":14,
+	 "fields":{"BEGINN":"String","BEMERKUNG":"String","ENDE":"String","LAND":"String","MODELLART":"String","NAM":"String","OBJART":"String","OBJART_TXT":"String","OBJID":"String","RGS":"String"},
+	 "description":"Test layer description"}
+]
+}
