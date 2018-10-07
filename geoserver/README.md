@@ -39,7 +39,7 @@ Diese Datei unter `C:\...YourGeoServerDirectory...\data_dir\www\YOUR_FILE.json` 
 ! deswegen erst einen Teilbereich von Deutschland auswählen und dann verknüpfen. !
 ```
 
-### Verknüpfung über TMS
+### Verknüpfungsversuch über TMS
 
 Wird dieselbe TileJSON-Datei ([s.o.](https://github.com/GjueAtGit/VTs_datasource_ogc/tree/master/geoserver#vector-tiles-aus-geoserver-in-qgis-einlesen)) verwendet, um die Vector Tiles über *TMS* einzubinden, d.h. der Pfad in *tiles* entsprechend angepasst, geschieht bei erstmaliger Einbinsung in *QGIS* nichts.
 
@@ -67,4 +67,4 @@ Wird dieselbe TileJSON-Datei ([s.o.](https://github.com/GjueAtGit/VTs_datasource
 ]
 }
 ```
-Die Verknüpfung zu *GeoServer* scheint nicht zu funktionieren. Sind dagegen aus vorherigen Versuchen mit der *WMTS*-Verknüpfung ([s.o.](https://github.com/GjueAtGit/VTs_datasource_ogc/tree/master/geoserver#vector-tiles-aus-geoserver-in-qgis-einlesen)) Vector Tiles im Cache von *QGIS* (!) vorhanden, werden diese angezeigt. Im Cache von *GeoServer* bzw. *GeoWebCache* liegende Vector Tiles haben jedoch keinen Auswirkung. Erstaunlicherweise ebenfalls ohne Auswirkung ist die Einstellung von `{-y}` oder `{y}` in der URL des *TMS*.
+Die Verknüpfung zu *GeoServer* scheint nicht zu funktionieren. Sind dagegen aus vorherigen Versuchen mit der *WMTS*-Verknüpfung ([s.o.](https://github.com/GjueAtGit/VTs_datasource_ogc/tree/master/geoserver#vector-tiles-aus-geoserver-in-qgis-einlesen)) Vector Tiles im Cache von *QGIS* (!) vorhanden, werden diese angezeigt. Im Cache von *GeoServer* bzw. *GeoWebCache* liegende Vector Tiles haben jedoch keine Auswirkung, d.h. diese werden nicht abgerufen. Erstaunlicherweise ebenfalls ohne Auswirkung ist die Einstellung von `{-y}` oder `{y}` in der URL des *TMS*.
