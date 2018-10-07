@@ -8,7 +8,7 @@ Für Testzwecke im Rahmen der vorliegenden Arbeit sollten mit GeoServer Vector T
 
 ### Verknüpfung über WMTS
 Jedoch besteht die Möglichkeit im *tiles*-tag der [TileJSON](https://github.com/mapbox/tilejson-spec)-Datei statt der Verknüpfung zum *TMS* von *GeoServer* den *WMTS*-Endpunkt zu nutzen. Die hierzu erforderlichen Angaben sind über *GetCapabilities* des Dienstes abrufbar. In der Oberfläche von *GeoServer* unter *Caching Standards -> Gehe zur GeoWebCache Startseite -> WMTS 1.0.0 GetCapabilities document* erreichbar.
-Daraus ergibt sich beispielhaft für den Layer *sie01_f*, Datenspeicher *DLM* im Arbeitsbereich *DLM* (Datenquelle = *sie01_f.shp* des DLM1000) folgende TileJSON-Datei:
+Daraus ergibt sich beispielhaft für den Layer *sie01_f*, Datenspeicher *DLM* im Arbeitsbereich *DLM* (Datenquelle = *sie01_f.shp* des DLM1000) [folgende TileJSON-Datei](https://github.com/GjueAtGit/VTs_datasource_ogc/blob/master/geoserver/example_tilejson_vts_wmts.json):
 ```json
 {
 "tilejson":"2.0.0",
@@ -41,7 +41,7 @@ Diese Datei unter `C:\...YourGeoServerDirectory...\data_dir\www\YOUR_FILE.json` 
 
 ### Verknüpfung über TMS
 
-Wird dieselbe TileJSON-Datei verwendet, um die Vector Tiles über *TMS* einzubinden, d.h. der Pfad in *tiles* entsprechend angepasst, geschieht bei erstmaliger Einbinsung in *QGIS* nichts.
+Wird dieselbe TileJSON-Datei ([s.o.](https://github.com/GjueAtGit/VTs_datasource_ogc/tree/master/geoserver#vector-tiles-aus-geoserver-in-qgis-einlesen)) verwendet, um die Vector Tiles über *TMS* einzubinden, d.h. der Pfad in *tiles* entsprechend angepasst, geschieht bei erstmaliger Einbinsung in *QGIS* nichts.
 
 ```json
 {
@@ -67,4 +67,4 @@ Wird dieselbe TileJSON-Datei verwendet, um die Vector Tiles über *TMS* einzubin
 ]
 }
 ```
-Die Verknüpfung zu *GeoServer* scheint nicht zu funktionieren. Sind dagegen aus vorherigen Versuchen mit der *WMTS*-Verknüpfung (s.o.) Vector Tiles im Cache von *QGIS* (!) vorhanden, werden diese angezeigt. Im Cache von *GeoServer* bzw. *GeoWebCache* liegende Vector Tiles haben jedoch keinen Auswirkung. Erstaunlicherweise ebenfalls ohne Auswirkung ist die Einstellung von `{-y}` oder `{y}` in der URL des *TMS*.
+Die Verknüpfung zu *GeoServer* scheint nicht zu funktionieren. Sind dagegen aus vorherigen Versuchen mit der *WMTS*-Verknüpfung ([s.o.](https://github.com/GjueAtGit/VTs_datasource_ogc/tree/master/geoserver#vector-tiles-aus-geoserver-in-qgis-einlesen)) Vector Tiles im Cache von *QGIS* (!) vorhanden, werden diese angezeigt. Im Cache von *GeoServer* bzw. *GeoWebCache* liegende Vector Tiles haben jedoch keinen Auswirkung. Erstaunlicherweise ebenfalls ohne Auswirkung ist die Einstellung von `{-y}` oder `{y}` in der URL des *TMS*.
