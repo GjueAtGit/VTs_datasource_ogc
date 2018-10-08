@@ -11,14 +11,3 @@ Der MBTiles-Treiber hat in Version 2.3 keine Möglichkeit zum Zusammenfügen von
 __Ergebnis__
 
 ![Ergebnis](MapServer_MapFile_GDAL_MBTiles.png?raw=true "Vector Tiles in MapServer via GDAL-MBTiles-Treiber")
-
-<br />
-<br />
-
-### english:
-## MapServer: Access to MBTiles via GDAL-MBTiles driver
-An [example](MBTiles_GDAL2_3.map) for accessing Vector Tiles from MapServer (version 7.2) using the [GDAL-MBTiles driver](https://www.gdal.org/frmt_mbtiles.html) (version 2.3).
-
-Data from [OpenMapTiles verwendet](https://openmaptiles.com/downloads/europe/switzerland/zurich/) was used as the data basis. With MapServer 7.2, MapFile does not offer the possibility to access the options CLIP and ZOOM_LEVEL_AUTO of the MBTiles driver. Thus the default settings (CLIP=YES; ZOOM_LEVEL_AUTO=NO) are adopted.
-
-The MBTiles driver in version 2.3 has no possibility to merge features across tiles (MERGE).
