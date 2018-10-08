@@ -1,8 +1,5 @@
 [<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" title="von User:SKopp, User:Madden, and other users [Public domain oder Public domain], via Wikimedia Commons" width="30" /> -> German version](README_de.md)
 
-```diff
--- repository currently under construction --
-```
 ## MapServer: Access to MBTiles via GDAL-MBTiles driver
 An [example](MBTiles_GDAL2_3.map) for accessing Vector Tiles from MapServer (version 7.2) using the [GDAL-MBTiles driver](https://www.gdal.org/frmt_mbtiles.html) (version 2.3).
 
