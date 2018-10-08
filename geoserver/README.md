@@ -3,6 +3,7 @@
 # Application examples for GeoServer
 ## Importing Vector Tiles from GeoServer into QGIS
 (*GeoServer 2.14.* + *VectorTilesPlugin*, *QGIS 2.18.24* + [*Vector Tiles Reader QGIS-Plugin*](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin))
+
 **datasource:** [DLM1000 Germany](http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=1&gdz_unt_zeile=2&gdz_user_id=0)
 
 For test purposes in the context of this paper, *GeoServer* should be used to generate Vector Tiles in [*MVT*-format](https://github.com/mapbox/vector-tile-spec) and display them in *QGIS*. In the current version, *QGIS* can display *MVT*-Vector Tiles with the [*Vector Tiles Reader QGIS plugin*](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin). In the [GitHub repository of the plugin](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin/issues/112) the question of the integration of data from *GeoServer* via a [TileJSON](https://github.com/mapbox/tilejson-spec) file is discussed in detail. Therefore the implementation seems to be not possible at the moment. The integration into *QGIS* [via *TMS*](https://github.com/GjueAtGit/VTs_datasource_ogc/blob/master/geoserver/README.md#verkn%C3%BCpfungsversuch-%C3%BCber-tms) does not seem to work at the moment.
