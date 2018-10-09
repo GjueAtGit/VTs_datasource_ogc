@@ -8,7 +8,7 @@ Das MapFile bietet bei MapServer 7.2 keine Möglichkeit, auf die Optionen CLIP u
 
 Der MBTiles-Treiber hat in Version 2.3 keine Möglichkeit zum Zusammenfügen von kachelübergreifenden Features (MERGE) implementiert.
 
-__Ergebnis__
+### Ergebnis
 
 ![Ergebnis](MapServer_MapFile_GDAL_MBTiles.png?raw=true "Vector Tiles in MapServer via GDAL-MBTiles-Treiber")
 
