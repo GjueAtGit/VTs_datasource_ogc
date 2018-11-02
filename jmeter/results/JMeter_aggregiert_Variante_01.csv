@@ -1,0 +1,33 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+[/geoserver/DLM/wms] GetCapabilities KVP 1.3.0,10,60,55,60,60,109,50,109,16.53,0.000%,.20380,37.86,0.04,190211.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 0 Image/Format PNG,10,617,614,640,640,643,583,643,17.77,0.000%,.20323,19.72,0.07,99386.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 1 Image/Format PNG,10,847,838,877,877,882,813,882,20.89,0.000%,.20262,56.26,0.07,284334.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 2 Image/Format PNG,10,330,327,348,348,352,314,352,13.20,0.000%,.20494,48.77,0.07,243689.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 3 Image/Format PNG,10,148,144,161,161,169,138,169,9.74,0.000%,.20576,33.50,0.07,166736.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 4 Image/Format PNG,10,85,74,112,112,133,67,133,20.90,0.000%,.20620,21.72,0.07,107856.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 5 Image/Format PNG,10,54,47,75,75,98,42,98,17.12,0.000%,.20663,12.53,0.07,62096.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 6 Image/Format PNG,10,40,39,46,46,50,35,50,4.32,0.000%,.20668,7.14,0.07,35393.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 7 Image/Format PNG,10,37,32,39,39,77,30,77,13.46,0.000%,.20681,4.12,0.07,20386.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 8 Image/Format PNG,10,34,31,34,34,63,30,63,9.53,0.000%,.20703,3.16,0.07,15654.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 9 Image/Format PNG,10,33,31,36,36,49,29,49,5.58,0.000%,.20720,1.99,0.07,9845.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 10 Image/Format PNG,10,31,29,31,31,54,28,54,7.45,0.000%,.20731,0.93,0.07,4608.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 11 Image/Format PNG,10,31,28,39,39,42,27,42,4.91,0.000%,.20744,0.93,0.07,4608.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 12 Image/Format PNG,10,33,31,46,46,46,28,46,6.45,0.000%,.20751,0.93,0.07,4608.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 13 Image/Format PNG,10,29,30,31,31,31,27,31,1.19,0.000%,.20755,0.93,0.07,4608.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 14 Image/Format PNG,10,29,29,31,31,32,27,32,1.60,0.000%,.20756,0.93,0.07,4608.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 0 Image/Format JPG,10,579,574,595,595,602,561,602,14.60,0.000%,.20529,7.97,0.07,39760.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 1 Image/Format JPG,10,847,839,865,865,912,825,912,24.40,0.000%,.20398,27.87,0.07,139902.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 2 Image/Format JPG,10,347,350,359,359,362,326,362,12.27,0.000%,.20613,29.45,0.07,146316.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 3 Image/Format JPG,10,161,163,166,166,167,154,167,4.32,0.000%,.20694,24.76,0.07,122538.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 4 Image/Format JPG,10,88,87,89,89,109,81,109,7.14,0.000%,.20724,17.90,0.07,88438.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 5 Image/Format JPG,10,59,56,58,58,90,53,90,10.30,0.000%,.20750,10.92,0.07,53901.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 6 Image/Format JPG,10,47,47,49,49,51,44,51,1.92,0.000%,.20769,5.99,0.07,29554.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 7 Image/Format JPG,10,42,41,45,45,47,39,47,2.52,0.000%,.20773,3.21,0.07,15837.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 8 Image/Format JPG,10,42,40,47,47,61,37,61,6.76,0.000%,.20777,2.15,0.07,10577.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 9 Image/Format JPG,10,42,38,61,61,62,35,62,9.50,0.000%,.20789,1.17,0.07,5766.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 10 Image/Format JPG,10,62,36,73,73,231,34,231,57.70,0.000%,.20803,0.46,0.07,2268.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 11 Image/Format JPG,10,39,38,44,44,44,35,44,3.29,0.000%,.20820,0.46,0.07,2268.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 12 Image/Format JPG,10,39,39,42,42,42,34,42,2.79,0.000%,.20823,0.46,0.07,2268.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 13 Image/Format JPG,10,39,39,42,42,43,34,43,2.72,0.000%,.20826,0.46,0.07,2268.0
+[/geoserver/DLM/wms] GetMap EPSG:3857 Zoom 14 Image/Format JPG,10,37,37,41,41,44,34,44,3.08,0.000%,.20826,0.46,0.07,2268.0
+TOTAL,310,158,44,594,831,869,27,912,234.95,0.000%,5.71681,346.24,1.87,62017.9

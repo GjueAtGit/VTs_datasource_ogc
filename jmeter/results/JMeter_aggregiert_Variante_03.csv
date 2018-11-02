@@ -1,0 +1,33 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetCapabilities KVP 1.1.1,10,259,155,183,183,1209,124,1209,316.79,0.000%,.00422,0.03,0.00,7344.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 0 Image/Format PNG,10,56936,56752,57695,57695,58206,55803,58206,688.81,0.000%,.00412,0.55,0.00,136273.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 1 Image/Format PNG,10,49625,49797,50014,50014,50179,48945,50179,415.35,0.000%,.00413,1.45,0.00,358683.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 2 Image/Format PNG,10,15804,14902,15411,15411,23677,14572,23677,2634.93,0.000%,.00419,1.17,0.00,286834.4
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 3 Image/Format PNG,10,4227,4133,4552,4552,5102,3911,5102,339.85,0.000%,.00421,0.76,0.00,185564.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 4 Image/Format PNG,10,1202,1197,1217,1217,1232,1178,1232,13.90,0.000%,.00422,0.48,0.00,116059.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 5 Image/Format PNG,10,437,435,462,462,462,410,462,18.69,0.000%,.00422,0.27,0.00,66360.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 6 Image/Format PNG,10,248,245,275,275,277,223,277,16.98,0.000%,.00422,0.15,0.00,37263.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 7 Image/Format PNG,10,179,177,187,187,189,168,189,6.24,0.000%,.00422,0.08,0.00,19796.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 8 Image/Format PNG,10,107,101,128,128,135,98,135,12.30,0.000%,.00422,0.06,0.00,13706.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 9 Image/Format PNG,10,156,159,176,176,193,112,193,22.53,0.000%,.00422,0.03,0.00,8162.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 10 Image/Format PNG,10,154,159,166,166,172,109,172,17.00,0.000%,.00422,0.01,0.00,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 11 Image/Format PNG,10,160,163,167,167,168,146,168,6.71,0.000%,.00422,0.01,0.00,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 12 Image/Format PNG,10,157,159,171,171,177,137,177,10.72,0.000%,.00422,0.01,0.00,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 13 Image/Format PNG,10,152,151,163,163,168,133,168,8.94,0.000%,.00422,0.01,0.00,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 14 Image/Format PNG,10,161,156,183,183,186,144,186,13.38,0.000%,.00422,0.01,0.00,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 0 Image/Format JPG,10,57171,57086,57925,57925,58526,55598,58526,764.24,0.000%,.00412,0.17,0.00,42165.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 1 Image/Format JPG,10,49322,49370,49979,49979,50098,48246,50098,591.96,0.000%,.00413,0.55,0.00,135144.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 2 Image/Format JPG,10,15017,14612,15849,15849,17072,14526,17072,786.56,0.000%,.00419,0.57,0.00,138620.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 3 Image/Format JPG,10,4350,4096,4986,4986,5390,3905,5390,506.52,0.000%,.00421,0.46,0.00,112384.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 4 Image/Format JPG,10,1378,1195,2037,2037,2172,1164,2172,364.64,0.000%,.00422,0.32,0.00,78548.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 5 Image/Format JPG,10,677,443,1582,1582,1646,429,1646,468.48,0.000%,.00422,0.19,0.00,46672.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 6 Image/Format JPG,10,482,244,952,952,1912,235,1912,520.90,0.000%,.00422,0.11,0.00,25509.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 7 Image/Format JPG,10,424,171,1092,1092,1763,153,1763,523.85,0.000%,.00422,0.06,0.00,13703.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 8 Image/Format JPG,10,421,97,1530,1530,1892,95,1892,649.78,0.000%,.00422,0.04,0.00,9275.8
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 9 Image/Format JPG,10,437,161,1412,1412,1676,135,1676,556.41,0.000%,.00422,0.02,0.00,4854.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 10 Image/Format JPG,10,1073,159,1555,1555,7987,115,7987,2342.40,0.000%,.00422,0.01,0.00,2042.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 11 Image/Format JPG,10,277,156,174,174,1367,138,1367,363.34,0.000%,.00422,0.01,0.00,2042.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 12 Image/Format JPG,10,282,156,185,185,1405,128,1405,374.45,0.000%,.00422,0.01,0.00,2042.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 13 Image/Format JPG,10,255,156,173,173,1146,136,1146,297.12,0.000%,.00422,0.01,0.00,2042.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms_tiles.map] GetMap EPSG:3857 Zoom 14 Image/Format JPG,10,290,143,168,168,1620,120,1620,443.44,0.000%,.00422,0.01,0.00,2042.0
+TOTAL,310,8446,190,49370,56430,57752,95,58526,17716.54,0.000%,.11800,6.93,0.05,60116.5

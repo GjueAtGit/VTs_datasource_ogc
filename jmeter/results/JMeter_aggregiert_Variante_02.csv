@@ -1,0 +1,33 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetCapabilities KVP 1.1.1,10,85,82,113,113,123,40,123,20.95,0.000%,.17637,1.26,0.04,7332.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 0 Image/Format PNG,10,488,468,521,521,543,460,543,27.18,0.000%,.17525,18.80,0.07,109856.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 1 Image/Format PNG,10,659,648,693,693,732,621,732,34.85,0.000%,.17460,49.36,0.07,289461.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 2 Image/Format PNG,10,317,315,335,335,335,295,335,15.78,0.000%,.17563,42.09,0.07,245417.4
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 3 Image/Format PNG,10,187,184,217,217,224,143,224,23.21,0.000%,.17596,29.20,0.07,169952.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 4 Image/Format PNG,10,130,126,149,149,153,101,153,15.29,0.000%,.17604,19.45,0.07,113135.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 5 Image/Format PNG,10,115,108,137,137,141,99,141,13.42,0.000%,.17594,11.63,0.07,67683.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 6 Image/Format PNG,10,104,98,137,137,138,61,138,22.63,0.000%,.17584,6.62,0.07,38534.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 7 Image/Format PNG,10,98,94,129,129,131,56,131,20.90,0.000%,.17581,3.48,0.07,20280.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 8 Image/Format PNG,10,103,98,122,122,123,89,123,11.18,0.000%,.17570,2.40,0.07,13981.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 9 Image/Format PNG,10,100,98,112,112,113,92,113,6.78,0.000%,.17569,1.42,0.07,8295.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 10 Image/Format PNG,10,88,82,103,103,113,79,113,11.03,0.000%,.17569,0.36,0.07,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 11 Image/Format PNG,10,90,84,111,111,116,80,116,12.55,0.000%,.17569,0.36,0.07,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 12 Image/Format PNG,10,90,92,121,121,129,50,129,24.45,0.000%,.17563,0.36,0.07,2096.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 13 Image/Format PNG,10,95,87,108,108,120,81,120,12.31,0.000%,.17556,0.36,0.07,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 14 Image/Format PNG,10,92,84,107,107,115,83,115,11.38,0.000%,.17550,0.36,0.07,2096.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 0 Image/Format JPG,10,520,508,531,531,645,475,645,44.92,0.000%,.17418,5.54,0.07,32584.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 1 Image/Format JPG,10,602,602,632,632,654,573,654,24.00,0.000%,.17398,18.13,0.07,106719.5
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 2 Image/Format JPG,10,306,303,329,329,353,281,353,20.10,0.000%,.17474,18.24,0.07,106867.2
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 3 Image/Format JPG,10,177,172,213,213,219,134,219,24.42,0.000%,.17510,14.41,0.07,84253.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 4 Image/Format JPG,10,129,120,154,154,156,113,156,15.59,0.000%,.17522,10.06,0.07,58787.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 5 Image/Format JPG,10,108,95,135,135,138,62,138,23.06,0.000%,.17520,6.13,0.07,35798.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 6 Image/Format JPG,10,101,100,128,128,132,55,132,20.43,0.000%,.17517,3.47,0.07,20280.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 7 Image/Format JPG,10,107,99,124,124,139,90,139,15.03,0.000%,.17509,1.92,0.07,11200.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 8 Image/Format JPG,10,96,90,115,115,115,81,115,12.68,0.000%,.17505,1.31,0.07,7657.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 9 Image/Format JPG,10,102,101,119,119,122,83,122,12.35,0.000%,.17499,0.73,0.07,4261.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 10 Image/Format JPG,10,98,91,123,123,128,60,128,20.60,0.000%,.17493,0.35,0.07,2042.0
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 11 Image/Format JPG,10,77,81,96,96,98,48,98,18.86,0.000%,.17495,0.35,0.07,2042.3
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 12 Image/Format JPG,10,90,85,116,116,124,57,124,17.77,0.000%,.17491,0.35,0.07,2042.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 13 Image/Format JPG,10,85,85,92,92,115,53,115,14.16,0.000%,.17491,0.35,0.07,2042.1
+[/cgi-bin/exemplars/dlm1000/wms?map=d:/UNIGIS/Masterarbeit/GIS/MapServer/wms.map] GetMap EPSG:3857 Zoom 14 Image/Format JPG,10,95,94,109,109,122,79,122,12.67,0.000%,.17486,0.35,0.07,2042.0
+TOTAL,310,178,106,497,602,680,40,732,162.65,0.000%,4.90150,242.89,1.88,50742.7
