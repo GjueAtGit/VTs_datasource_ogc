@@ -27,7 +27,7 @@
             </elementProp>
             <elementProp name="myLayer" elementType="Argument">
               <stringProp name="Argument.name">myLayer</stringProp>
-              <stringProp name="Argument.value">DLM1000_ver01_l_256px</stringProp>
+              <stringProp name="Argument.value">DLM1000_ver01_l_512px</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="myCRS" elementType="Argument">
