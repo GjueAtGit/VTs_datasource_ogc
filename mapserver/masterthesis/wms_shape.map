@@ -1,0 +1,88 @@
+MAP
+  NAME "WMS_Shape"
+  STATUS ON
+  SIZE 512 512
+  EXTENT 625986 5945823 1722939 7382712
+  UNITS METERS
+  IMAGECOLOR 255 255 255
+  SHAPEPATH "./"
+  FONTSET "font.list"
+  SYMBOLSET "symbols.sym"
+  MAXSIZE 4096
+
+  OUTPUTFORMAT
+    NAME "png24"
+    MIMETYPE "image/png"
+    DRIVER "AGG/PNG"
+    EXTENSION "png"
+    IMAGEMODE RGB
+    TRANSPARENT TRUE
+  END # OUTPUTFORMAT
+
+  WEB
+    IMAGEPATH "./" 
+    IMAGEURL "/"
+    METADATA
+      "wms_title" "WMS DLM1000 BKG"
+      "wms_onlineresource" "http://localhost:7979/cgi-bin/mapserv?map=tmp/MapServer/wms.map"
+      "wms_srs" "EPSG:4326 EPSG:4269 EPSG:3857"
+      "wms_feature_info_mime_type" "text/plain"
+      "wms_abstract" "This example is based on a template from Gateway Geomatics (http://gatewaygeomatics.com/"
+      "ows_enable_request" 	"*"  
+      "wms_extent" "5 45 17 56"
+      "wms_feature_info_mime_type"  "text/html"
+    END
+    TEMPLATE query.html
+  END
+
+  PROJECTION
+    "proj=merc"
+    "a=6378137"
+    "b=6378137"
+    "lat_ts=0.0"
+    "lon_0=0.0"
+    "x_0=0.0"
+    "y_0=0"
+    "k=1.0"
+    "units=m"
+    "nadgrids=@null"
+    "wktext"
+    "no_defs"
+  END # PROJECTION
+
+  LAYER
+    DATA "ver01_l.shp"
+    METADATA
+      "wms_title" "BKG DLM1000 Verkehr"
+    END # METADATA
+    NAME "ver01_l"
+    PROJECTION
+      "proj=merc"
+      "a=6378137"
+      "b=6378137"
+      "lat_ts=0.0"
+      "lon_0=0.0"
+      "x_0=0.0"
+      "y_0=0"
+      "k=1.0"
+      "units=m"
+      "nadgrids=@null"
+      "wktext"
+      "no_defs"
+    END # PROJECTION
+    STATUS ON
+    TEMPLATE "query.html"
+    TILEITEM "location"
+    TYPE LINE
+    UNITS METERS
+    CLASS
+      NAME "ver01_l"
+      STYLE
+        COLOR 255 0 0
+        SIZE 8
+      END # STYLE
+      TEMPLATE "query.html"
+    END # CLASS
+  END # LAYER
+
+END # Map File
