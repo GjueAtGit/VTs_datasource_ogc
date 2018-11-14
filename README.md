@@ -7,3 +7,7 @@
 ### A master thesis at University of Salzburg - UNIGIS
 
 The research focus of this thesis is based on the consideration to be able to use the advantages of Vector Tiles for the provision of geodata on the one hand and to offer conventional OGC view services on the other hand. It is investigated whether it is possible to use Vector Tiles as data basis for WMS and WMTS. 
+
+### Files
+- [Work table Software Vector Tiles (*PDF*)](Software_Vector_Tiles_Arbeitstabelle.pdf)
+- [Work table Software Vector Tiles (LibreOffice Calc *ODS*)](Software_Vector_Tiles_Arbeitstabelle.ods)
