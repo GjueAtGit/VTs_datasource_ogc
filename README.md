@@ -1,7 +1,7 @@
 [<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" title="von User:SKopp, User:Madden, and other users [Public domain oder Public domain], via Wikimedia Commons" width="30" /> -> German version](README_de.md)
 
 ```diff
--- repository currently under construction --
+-- The Master thesis is currently being evaluated --
 ```
 # Vector Tiles as data source for OGC view services
 ### A master thesis at University of Salzburg - UNIGIS
@@ -9,5 +9,6 @@
 The research focus of this thesis is based on the consideration to be able to use the advantages of Vector Tiles for the provision of geodata on the one hand and to offer conventional OGC view services on the other hand. It is investigated whether it is possible to use Vector Tiles as data basis for WMS and WMTS. 
 
 ### Files
+- The text version of the Master Thesis in German language is available here after its evaluation, probably in January 2019.
 - [Work table Software Vector Tiles (*PDF*)](Software_Vector_Tiles_Arbeitstabelle.pdf)
 - [Work table Software Vector Tiles (LibreOffice Calc *ODS*)](Software_Vector_Tiles_Arbeitstabelle.ods)
